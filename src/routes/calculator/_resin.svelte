@@ -17,11 +17,11 @@
   let changed = true;
   let currentResin = '';
   let desiredResin = '';
-  let maxResin = 160;
+  let maxResin = 200;
   let millisecondsToWait;
   let fullTime = null;
   let relativeTime = null;
-  let missingResin = 160;
+  let missingResin = 200;
   let resinTypeOutput = '';
   let resinOutput = {
     resin: 0,
