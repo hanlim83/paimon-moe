@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    arlecchino: {
-      name: 'Arlecchino',
+    xilonen: {
+      name: 'Xilonen',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    clorinde: {
-      name: 'Clorinde',
+    venti: {
+      name: 'Venti',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300077;
-  const image = 'arlecchino clorinde.png';
+  const bannerId = 300081;
+  const image = 'xilonen venti.png';
   const width = 800;
-  const height = 394;
+  const height = 424;
 
   let loading = true;
   let user = '';
