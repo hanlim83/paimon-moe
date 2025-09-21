@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    xilonen: {
-      name: 'Xilonen',
+    lauma: {
+      name: 'Lauma',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    venti: {
-      name: 'Venti',
+    nahida: {
+      name: 'Nahida',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300081;
-  const image = 'xilonen venti.png';
+  const bannerId = 300088;
+  const image = 'lauma nahida.png';
   const width = 800;
-  const height = 424;
+  const height = 390;
 
   let loading = true;
   let user = '';
